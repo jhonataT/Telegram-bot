@@ -1,0 +1,28 @@
+{
+  "name": "telegram-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.51.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhonataT/Telegram-bot.git"
+  },
+  "keywords": [
+    "node",
+    "telegram",
+    "bot"
+  ],
+  "author": "Jhonata Tenorio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jhonataT/Telegram-bot/issues"
+  },
+  "homepage": "https://github.com/jhonataT/Telegram-bot#readme"
+}
