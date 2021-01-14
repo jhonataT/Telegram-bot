@@ -26,8 +26,8 @@ bot.on('message', async (msg) => {
     // Commands:
     if(CMD_NAME === 'start'){
       console.log('start');
-      await Id.saveId(chatId.toString());
-      // await Id.verifyId(chatId);
+      // await Id.saveId(chatId.toString());
+      await Id.verifyId(chatId.toString());
     }
 
     if(CMD_NAME === 'c'){
@@ -35,7 +35,5 @@ bot.on('message', async (msg) => {
       console.log(data);
       bot.sendMessage(chatId, data);
     }
-
   }
-
 });
